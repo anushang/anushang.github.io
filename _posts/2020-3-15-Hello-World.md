@@ -7,4 +7,7 @@ title: ESP8266 Firmware extraction & MQTT Transfer Protocol sniffing!
 
 ![_config.yml]({{ site.baseurl }}/images/20200413_040046.jpg)
 
-The easiest way to make your first post is to edit this one. Go into /_posts/ and update the Hello World markdown file. For more instructions head over to the [Jekyll Now repository](https://github.com/barryclark/jekyll-now) on GitHub.
+This post is about my recent work with an IOT company. Our project was about IOT Security Intrusion/Anomaly Detection program. 
+Initially we started with an IOT device which sends temperature readings over WIFI to a secured server. The protocol we used was an unsecured  MQTT broker and ESP8226 nodemcu chip.
+First our task was sniffing temperature which was sent to our server,
+Here's how I did it. Pretty simple 
