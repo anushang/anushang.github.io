@@ -4,12 +4,12 @@ title: About
 permalink: /about/
 ---
 
-Some information about you!
+Security Researcher interested in offensive security.
 
 ### More Information
 
-A place to include any other types of information that you'd like to include about yourself.
+I'm in SRM Intistute of Technology, 3rd year. I'm CEH, planning to do OSCP in coming months. I'm part of Next Tech Lab. I play CTF, and HackThebox usually.  
 
 ### Contact me
 
-[email@domain.com](mailto:email@domain.com)
+[anushangsrivastav@gmail.com](mailto:anushangsrivastav@gmail.com)
