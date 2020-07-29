@@ -18,11 +18,11 @@ Steps to use Windows-Exploit-Suggester
     It will list all the vulnerabilties. 
     Note: [E] means Exploitdb, [M] means metasploitable
 
-Priviledge exploitation
+Privilege exploitation
 ### ?
-    whoami /priv ->lists priviledges current user has
+    whoami /priv ->lists privileges current user has
 
-### Some priviledges if enables to exploit
+### Some privileges if enables to exploit
     1) SeImpersonatePrivilege        Impersonate a client after authentication Enabled 
        If this is Enabled then you are the SYSTEM.
        List of CLDIS
