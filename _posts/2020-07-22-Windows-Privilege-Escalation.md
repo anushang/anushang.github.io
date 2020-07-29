@@ -1,4 +1,4 @@
-This post contents is about when you get a low, unprivileged shell on a Windows Machine.
+This post's content is about when you get a low, unprivileged shell on a Windows Machine.
 First and foremost thing is to upload files on the system.
 ### Steps:
     Start server on attacker machine:
