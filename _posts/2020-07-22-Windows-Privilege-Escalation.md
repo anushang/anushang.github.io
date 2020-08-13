@@ -22,9 +22,16 @@ Steps to use Windows-Exploit-Suggester
     Note: [E] means Exploitdb, [M] means metasploitable
 
 Privilege exploitation
-### ?
-    whoami /priv ->lists privileges current user has
-
+### Post Exploitation Enumeration
+    >whoami /priv ->lists privileges current user has
+    >schtasks /query /fo LIST /v
+    >netsh advfirewall firewall show rule name=all
+    >netstat -ano
+    >tasklist /SVC
+    >wmic qfe get Caption, Description, HotFixID, InstalledOn
+    >wmic product get name, version, vendor
+    >accesschk.exe -uws "Everyone" "C:\Program Files"
+    
 ### Some privileges if enables to exploit
     1) SeImpersonatePrivilege        Impersonate a client after authentication Enabled 
        If this is Enabled then you are the SYSTEM.
