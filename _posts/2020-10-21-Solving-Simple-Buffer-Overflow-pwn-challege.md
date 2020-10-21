@@ -31,6 +31,10 @@ Our beer program crashed when we sent more than 72 characters.
 ![_config.yml]({{ site.baseurl }}/images/gitbof4.png)
 
 As we have already noticed beer is ELF 64-bit LSB executable, so we have to write the address in Little endian format "\x10\x12\x40".  
+Let's test this 
+![_config.yml]({{ site.baseurl }}/images/boff.png)
+
+Yes! It worked.
 Now we write the exploit.
 ```python
 import socket
