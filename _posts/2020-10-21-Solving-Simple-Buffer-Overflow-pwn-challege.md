@@ -1,3 +1,4 @@
+This pwn challenge was part of Sector443 CTF.  
 The challenge files ->[here](https://github.com/anushang/CTFs)  
 Read about basics here before reading this post. [READ](https://owasp.org/www-community/vulnerabilities/Buffer_Overflow)  
 This challenge was simple and fun as it involved overflowing beer ;)  
@@ -8,9 +9,9 @@ Let's quickly check if is vulnerable to the attack.
 ![_config.yml]({{ site.baseurl }}/images/bofgit1.png)
 
 bingo!
-We just sent random characters and we go a segmentation fault error!
-So all now we have to do are these things:
-1. Reverse the ELF and find something to jump upon.
+We just sent random characters and we got ourselves a segmentation fault error!
+So all now we have to do :
+1. Reverse the ELF and find something intersting to jump upon which can lead to our flag .
 2. Find it's address on stack.
 3. Make a python script to pwn the challenge.  
 There are many ways to do this.    
