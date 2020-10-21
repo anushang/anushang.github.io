@@ -8,10 +8,9 @@ Let's quckly check if is vulnerable to the attack.
 bingo!
 We just sent random characters and we go a segmentation fault error!
 So all now we have to do are these things:
-1)Reverse the ELF and find something to jump upon.
-2)Find it's address on stack.
-3)Make a python script to pwn the challenge.
+1. Reverse the ELF and find something to jump upon.
+2. Find it's address on stack.
+3. Make a python script to pwn the challenge.
 There are many ways to do this. We can use Ghidra to find what ELF do and what their funcions do. I will just list the functions using 
-'''
-    objdump -d beer
+*objdump -d beer*
 
