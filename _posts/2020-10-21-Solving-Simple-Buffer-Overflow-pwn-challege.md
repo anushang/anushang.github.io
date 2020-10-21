@@ -15,5 +15,9 @@ There are many ways to do this. We can use Ghidra to find what ELF do and what t
 ```
 objdump -d beer
 ```
+In the output the function flag looks interesting.
 ![_config.yml]({{ site.baseurl }}/images/gitbof3.png)
+
+Jot down the address of the function and now we have to make simple python script to launch the attack.
+
 
