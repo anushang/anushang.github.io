@@ -1,6 +1,6 @@
 The challenge files ->[here](https://github.com/anushang/CTFs)  
-Read about basics here before reading this post. [READ](https://owasp.org/www-community/vulnerabilities/Buffer_Overflow) 
-This challenge was simple and fun as it involved overflowing beer ;)
+Read about basics here before reading this post. [READ](https://owasp.org/www-community/vulnerabilities/Buffer_Overflow)  
+This challenge was simple and fun as it involved overflowing beer ;)  
 ![_config.yml]({{ site.baseurl }}/images/bofgit2.png)
 
 As you can already guess by the looks of it, it's a buffer overflow challenge and all we have to do is overflow the stack and get our stack pointer to point to a location in a memory which we can take advantage of.  
