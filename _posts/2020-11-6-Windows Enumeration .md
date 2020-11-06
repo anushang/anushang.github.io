@@ -1,3 +1,4 @@
+Port 5985 - WinRM
 ### SMB :
        smbclient -U "" -L //<ip>         ->  -L flag Get a list of shares available on a host
        smbcleint -U "" //<ip>            ->  Connects to our users shares
